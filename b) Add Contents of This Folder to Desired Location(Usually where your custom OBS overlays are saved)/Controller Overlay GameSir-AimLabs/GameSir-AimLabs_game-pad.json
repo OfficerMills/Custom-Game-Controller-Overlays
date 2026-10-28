@@ -1,0 +1,303 @@
+{
+    "default_height": 0,
+    "default_width": 0,
+    "elements": [
+        {
+            "id": "body",
+            "mapping": [
+                1,
+                1,
+                1280,
+                926
+            ],
+            "pos": [
+                0,
+                0
+            ],
+            "type": 0,
+            "z_level": 0
+        },
+        {
+            "code": 0,
+            "id": "a",
+            "mapping": [
+                865,
+                853,
+                79,
+                89
+            ],
+            "pos": [
+                952,
+                285
+            ],
+            "type": 2,
+            "z_level": 1
+        },
+        {
+            "code": 1,
+            "id": "b",
+            "mapping": [
+                772,
+                846,
+                94,
+                94
+            ],
+            "pos": [
+                1047,
+                195
+            ],
+            "type": 2,
+            "z_level": 1
+        },
+        {
+            "code": 3,
+            "id": "y",
+            "mapping": [
+                678,
+                846,
+                94,
+                94
+            ],
+            "pos": [
+                950,
+                103
+            ],
+            "type": 2,
+            "z_level": 1
+        },
+        {
+            "code": 2,
+            "id": "x",
+            "mapping": [
+                585,
+                847,
+                94,
+                94
+            ],
+            "pos": [
+                855,
+                192
+            ],
+            "type": 2,
+            "z_level": 1
+        },
+        {
+            "code": 4,
+            "id": "select",
+            "mapping": [
+                410,
+                855,
+                75,
+                71
+            ],
+            "pos": [
+                464,
+                157
+            ],
+            "type": 2,
+            "z_level": 1
+        },
+        {
+            "code": 6,
+            "id": "start",
+            "mapping": [
+                495,
+                853,
+                75,
+                72
+            ],
+            "pos": [
+                733,
+                157
+            ],
+            "type": 2,
+            "z_level": 1
+        },
+        {
+            "code": 9,
+            "id": "ls",
+            "mapping": [
+                50,
+                877,
+                123,
+                54
+            ],
+            "pos": [
+                187,
+                13
+            ],
+            "type": 2,
+            "z_level": 1
+        },
+        {
+            "code": 10,
+            "id": "rs",
+            "mapping": [
+                178,
+                875,
+                123,
+                60
+            ],
+            "pos": [
+                980,
+                11
+            ],
+            "type": 2,
+            "z_level": 1
+        },
+        {
+            "code": 11,
+            "id": "dpad_up",
+            "mapping": [
+                767,
+                1059,
+                45,
+                43
+            ],
+            "pos": [
+                420,
+                351
+            ],
+            "type": 2,
+            "z_level": 1
+        },
+        {
+            "code": 12,
+            "id": "dpad_down",
+            "mapping": [
+                767,
+                1058,
+                45,
+                45
+            ],
+            "pos": [
+                419,
+                478
+            ],
+            "type": 2,
+            "z_level": 1
+        },
+        {
+            "code": 13,
+            "id": "dpad_left",
+            "mapping": [
+                767,
+                1059,
+                45,
+                43
+            ],
+            "pos": [
+                355,
+                414
+            ],
+            "type": 2,
+            "z_level": 1
+        },
+        {
+            "code": 14,
+            "id": "dpad_right",
+            "mapping": [
+                767,
+                1059,
+                45,
+                44
+            ],
+            "pos": [
+                486,
+                413
+            ],
+            "type": 2,
+            "z_level": 1
+        },
+        {
+            "direction": 1,
+            "id": "lt",
+            "mapping": [
+                313,
+                855,
+                39,
+                47
+            ],
+            "pos": [
+                200,
+                5
+            ],
+            "side": 0,
+            "trigger_mode": false,
+            "type": 6,
+            "z_level": 1
+        },
+        {
+            "direction": 1,
+            "id": "rt",
+            "mapping": [
+                361,
+                856,
+                38,
+                45
+            ],
+            "pos": [
+                1049,
+                0
+            ],
+            "side": 1,
+            "trigger_mode": false,
+            "type": 6,
+            "z_level": 1
+        },
+        {
+            "id": "left_analog_stick",
+            "mapping": [
+                994,
+                856,
+                118,
+                119
+            ],
+            "pos": [
+                218,
+                151
+            ],
+            "side": 0,
+            "stick_radius": 45,
+            "type": 5,
+            "z_level": 1
+        },
+        {
+            "id": "right_analog_stick",
+            "mapping": [
+                994,
+                857,
+                118,
+                118
+            ],
+            "pos": [
+                713,
+                393
+            ],
+            "side": 1,
+            "stick_radius": 45,
+            "type": 5,
+            "z_level": 1
+        },
+        {
+            "id": "guide",
+            "mapping": [
+                37,
+                1063,
+                142,
+                133
+            ],
+            "pos": [
+                563,
+                151
+            ],
+            "type": 7,
+            "z_level": 1
+        }
+    ],
+    "flags": 6,
+    "overlay_height": 926,
+    "overlay_width": 1280,
+    "space_h": 0,
+    "space_v": 0
+}
