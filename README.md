@@ -3,7 +3,7 @@ Custom game controller overlays for streaming software, including **OBS Studio**
 
 These overlays use the [Input Overlay](https://github.com/univrsal/input-overlay) plugin to display controller inputs on stream. This repository contains custom overlay designs and their configuration files.
 
-> SEE EXAMPLES
+> [SEE EXAMPLES](https://github.com/OfficerMills/Custom-Game-Controller-Overlays/blob/main/README.md#-youre-all-set)
 
 ## 📥 Installation Instructions
 
@@ -68,7 +68,6 @@ If the overlay does not appear correctly, double-check that you selected the cor
     </tr>
   </table>
 </div>
----
 
 ## 📜 Credits & Third-Party Software
 
