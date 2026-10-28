@@ -1,18 +1,17 @@
 # 🎮 Custom Game Controller Overlays
 
 
+
+# 🎮 Custom Game Controller Overlays
+
 <div align="center">
-  <table>
-    <tr>
-      <td>
-        <video src="https://github.com/user-attachments/assets/8f4a8c69-a899-4374-bb58-5563f0f86e51" width="400" controls></video>
-      </td>
-      <td>
-        <video src="https://github.com/user-attachments/assets/dd66200b-0de9-469b-94e9-5c6e85b18a77" width="400" controls></video>
-      </td>
-    </tr>
-  </table>
+  <div style="display: flex; justify-content: center; gap: 0; flex-wrap: wrap;">
+    <video src="https://github.com/user-attachments/assets/8f4a8c69-a899-4374-bb58-5563f0f86e51" width="400" controls></video>
+    <video src="https://github.com/user-attachments/assets/dd66200b-0de9-469b-94e9-5c6e85b18a77" width="400" controls></video>
+  </div>
 </div>
+
+Custom game controller overlays for streaming software, including **OBS Studio**, **Meld Studio**, and **Streamlabs**.
 
 
 Custom game controller overlays for streaming software, including **OBS Studio**, **Meld Studio**, and **Streamlabs**.
