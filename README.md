@@ -1,23 +1,9 @@
 # 🎮 Custom Game Controller Overlays
-
-
-<div align="center">
-  <table>
-    <tr>
-      <td>
-        <video src="https://github.com/user-attachments/assets/8f4a8c69-a899-4374-bb58-5563f0f86e51" width="400" controls></video>
-      </td>
-      <td>
-        <video src="https://github.com/user-attachments/assets/dd66200b-0de9-469b-94e9-5c6e85b18a77" width="400" controls></video>
-      </td>
-    </tr>
-  </table>
-</div>
-
-
 Custom game controller overlays for streaming software, including **OBS Studio**, **Meld Studio**, and **Streamlabs**.
 
 These overlays use the [Input Overlay](https://github.com/univrsal/input-overlay) plugin to display controller inputs on stream. This repository contains custom overlay designs and their configuration files.
+
+> SEE EXAMPLES
 
 ## 📥 Installation Instructions
 
@@ -69,6 +55,19 @@ Your custom controller overlay should now be visible in your OBS scene. Move, re
 
 If the overlay does not appear correctly, double-check that you selected the correct `.png` and `.json` files and that both files remain in the same folder.
 
+
+<div align="center">
+  <table>
+    <tr>
+      <td>
+        <video src="https://github.com/user-attachments/assets/8f4a8c69-a899-4374-bb58-5563f0f86e51" width="400" controls></video>
+      </td>
+      <td>
+        <video src="https://github.com/user-attachments/assets/dd66200b-0de9-469b-94e9-5c6e85b18a77" width="400" controls></video>
+      </td>
+    </tr>
+  </table>
+</div>
 ---
 
 ## 📜 Credits & Third-Party Software
