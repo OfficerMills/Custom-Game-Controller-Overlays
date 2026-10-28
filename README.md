@@ -1,7 +1,7 @@
 # 🎮 Custom Game Controller Overlays
 
 <p align="center">
-  <video src="EXAMPLE VIDEOS/NIXSTA Controller Overlay_02.mp4" width="80%" controls></video>
+  [NIXSTAH's Dual Sense Edge](EXAMPLE VIDEOS/NIXSTA Controller Overlay_02.mp4)
 </p>
 
 
