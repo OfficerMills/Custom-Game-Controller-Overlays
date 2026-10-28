@@ -1,3 +1,5 @@
+<img width="395" height="234" alt="image" src="https://github.com/user-attachments/assets/293763d9-3ca3-4fc8-b1a2-6572723d6bf7" />
+
 # 🎮 Custom Game Controller Overlays
 Custom game controller overlays for streaming software, including **OBS Studio**, **Meld Studio**, and **Streamlabs**.
 
