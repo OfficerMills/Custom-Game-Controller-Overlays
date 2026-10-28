@@ -1,5 +1,8 @@
 # 🎮 Custom Game Controller Overlays
 
+<p align="center">
+  <video src="https://github.com/OfficerMills/Custom-Game-Controller-Overlays/blob/main/EXAMPLE%20VIDEOS/Clutch-OBS-Overay.mp4" width="80%" controls></video>
+</p>
 
 
 Custom game controller overlays for streaming software, including **OBS Studio**, **Meld Studio**, and **Streamlabs**.
