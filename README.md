@@ -1,5 +1,4 @@
-
-<div align="center" style="width: 100%; border: 1px solid #444; border-radius: 8px; overflow: hidden;">
+ <div align="center" style="width: 100%; border: 1px solid #444; border-radius: 8px; overflow: hidden;">
 
   <div style="background-color: #1f1f1f; color: #ffffff; padding: 12px 16px; font-weight: bold; font-size: 16px; border-bottom: 1px solid #444;">
     NIXSTAH | OBS CONTROLLER OVERLAY
@@ -14,13 +13,15 @@
 
 </div>
 
-
 # 🎮 Custom Game Controller Overlays
-Custom game controller overlays for streaming software, including **OBS Studio**, **Meld Studio**, and **Streamlabs**.
 
-These overlays use the [Input Overlay](https://github.com/univrsal/input-overlay) plugin to display controller inputs on stream. This repository contains custom overlay designs and their configuration files.
+Custom game controller overlays designed exclusively for **OBS Studio**. These overlays display your controller inputs on stream, allowing viewers to see your button presses and other inputs in real time.
 
-> [SEE EXAMPLES](https://github.com/OfficerMills/Custom-Game-Controller-Overlays/blob/main/README.md#-youre-all-set)
+This repository includes custom overlay designs and their configuration files. They run through the third-party [Input Overlay](https://github.com/univrsal/input-overlay) plugin, which **must be installed in OBS Studio** before these overlays can be used.
+
+> **📌 Important:** These overlays require OBS Studio and the Input Overlay plugin. They are not standalone applications and are not designed for other streaming software.
+
+> [**▶️ SEE EXAMPLES**](https://github.com/OfficerMills/Custom-Game-Controller-Overlays/blob/main/README.md#-youre-all-set)
 
 ## 📥 Installation Instructions
 
@@ -34,44 +35,57 @@ These overlays use the [Input Overlay](https://github.com/univrsal/input-overlay
 1. Open **Folder `A`**.
 2. Run the included `.exe` installer.
 3. Follow the installation prompts to install the Input Overlay plugin.
+4. Restart OBS Studio if required by the installer.
 
-> **Note:** Input Overlay is a third-party OBS plugin. See the [official Input Overlay repository](https://github.com/univrsal/input-overlay) for its documentation and licensing information.
+> **Note:** Input Overlay is a third-party OBS plugin developed by [UNIVRSAL](https://github.com/univrsal). Refer to the [official Input Overlay repository](https://github.com/univrsal/input-overlay) for documentation, releases, and licensing information.
 
 ### Step 3 — Install the Custom Controller Overlay
 
 1. Open **Folder `B`**.
-2. Copy the folder named `Controller Overlay NIXSTAH`.
-3. Paste it into the location where you keep your custom OBS overlay assets.
+2. Locate and copy the folder named `Controller Overlay NIXSTAH`.
+3. Paste it into the location where you store your custom OBS overlay assets.
 
-**Important:** Keep the `.png` and `.json` files together in the same folder. The plugin needs both files to load the overlay correctly.
+**Important:** Keep the `.png` image and matching `.json` configuration file together in the same folder. Both files are required for the overlay to function correctly.
 
-### Step 4 — Add the Overlay to OBS
+### Step 4 — Add the Overlay to OBS Studio
 
 1. Open OBS Studio.
-2. Navigate to the scene where you want the controller overlay to appear.
+2. Select the scene where you want the controller overlay to appear.
 3. In the **Sources** panel, click **`+`**.
 4. Select **Input Overlay**.
 5. In the source properties window:
    - Click **Browse** for the image field and select the overlay's `.png` file.
    - Click **Browse** for the configuration field and select the matching `.json` file from the same folder.
-6. Apply the settings and position the overlay where you want it on your scene.
+6. Apply the settings.
+7. Position and resize the overlay within your OBS scene to suit your stream layout.
 
 ![Input Overlay source configuration](image.png)
 
 ## ⚙️ Additional Settings
 
-Input Overlay includes an additional settings menu inside OBS Studio.
+The Input Overlay plugin also provides additional settings directly within OBS Studio.
 
-To access it, open the **Tools** menu at the top of OBS and select the Input Overlay settings option.
+To access them, open the **Tools** menu at the top of OBS Studio and select the Input Overlay settings option.
 
 ![Input Overlay settings menu](image-1.png)
 
 ## ✅ You're All Set!
 
-Your custom controller overlay should now be visible in your OBS scene. Move, resize, and position it to suit your stream layout.
+Your custom NIXSTAH controller overlay should now be ready to use in your OBS Studio scene.
 
-If the overlay does not appear correctly, double-check that you selected the correct `.png` and `.json` files and that both files remain in the same folder.
+Customize its position and size to fit your layout, then test your controller inputs to verify that everything displays correctly.
 
+If the overlay does not appear or function as expected, check the following:
+
+- The Input Overlay plugin is installed correctly.
+- You selected the correct `.png` image file.
+- You selected the matching `.json` configuration file.
+- Both files remain together in the same folder.
+- OBS Studio has been restarted if required after plugin installation.
+
+### 🎬 Overlay Examples
+
+See the overlays in action:
 
 <div align="center">
   <table>
@@ -86,13 +100,15 @@ If the overlay does not appear correctly, double-check that you selected the cor
   </table>
 </div>
 
+---
+
 ## 📜 Credits & Third-Party Software
 
 ### Input Overlay
 
-This project uses **Input Overlay**, an OBS Studio plugin created by **[UNIVRSAL](https://github.com/univrsal)**.
+This project uses **Input Overlay**, an OBS Studio plugin developed by **[UNIVRSAL](https://github.com/univrsal)**.
 
-Input Overlay provides the underlying functionality for displaying keyboard, mouse, and gamepad inputs in streaming software. The custom overlay designs and related configuration files in this repository are my own contributions, unless otherwise indicated.
+Input Overlay provides the underlying functionality for displaying keyboard, mouse, and gamepad inputs within OBS Studio. The custom overlay designs and their associated configuration files included in this repository are my own contributions, unless otherwise indicated.
 
 - **Original project:** [univrsal/input-overlay](https://github.com/univrsal/input-overlay)
 - **Original author:** [UNIVRSAL](https://github.com/univrsal)
@@ -101,4 +117,3 @@ Input Overlay provides the underlying functionality for displaying keyboard, mou
 All credit for the original Input Overlay plugin belongs to its original author. This repository is an independent project and is not affiliated with, endorsed by, or officially associated with UNIVRSAL or the Input Overlay project.
 
 The original plugin remains subject to its own copyright notices and license terms. Please refer to the [official repository](https://github.com/univrsal/input-overlay) for its source code, releases, documentation, and complete licensing information.
-
