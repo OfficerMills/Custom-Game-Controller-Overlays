@@ -1,7 +1,7 @@
 # 🎮 Custom Game Controller Overlays
 
 <p align="center">
-  <video src="https://github.com/OfficerMills/Custom-Game-Controller-Overlays/blob/main/EXAMPLE%20VIDEOS/Clutch-OBS-Overay.mp4" width="80%" controls></video>
+  <video src="EXAMPLE VIDEOS/NIXSTA Controller Overlay_02.mp4" width="80%" controls></video>
 </p>
 
 
