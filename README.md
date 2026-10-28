@@ -1,4 +1,19 @@
-<img width="395" height="234" alt="image" src="https://github.com/user-attachments/assets/293763d9-3ca3-4fc8-b1a2-6572723d6bf7" />
+
+<div align="center" style="width: 100%; border: 1px solid #444; border-radius: 8px; overflow: hidden;">
+
+  <div style="background-color: #1f1f1f; color: #ffffff; padding: 12px 16px; font-weight: bold; font-size: 16px; border-bottom: 1px solid #444;">
+    NIXSTAH | OBS CONTROLLER OVERLAY
+  </div>
+
+  <img
+    src="https://github.com/user-attachments/assets/293763d9-3ca3-4fc8-b1a2-6572723d6bf7"
+    alt="NIXSTAH OBS Controller Overlay"
+    width="100%"
+    style="display: block; width: 100%; max-width: 100%; height: auto;"
+  />
+
+</div>
+
 
 # 🎮 Custom Game Controller Overlays
 Custom game controller overlays for streaming software, including **OBS Studio**, **Meld Studio**, and **Streamlabs**.
